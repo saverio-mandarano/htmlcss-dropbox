@@ -74,6 +74,7 @@ a {
   /* background-color: black; */
   width: 60%;
   margin-right: 20px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -92,11 +93,14 @@ a {
 .hello-main {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
-.hello-img {
+.hello-img img {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
 }
 
 .hello-card {
@@ -112,5 +116,9 @@ a {
   justify-content: center;
   gap: 15px;
   margin-top: 20px;
-  margin-bottom: 500px;
+  margin-bottom: 10px;
+}
+
+.hello-card ul li {
+  margin: 15px 0px;
 }
