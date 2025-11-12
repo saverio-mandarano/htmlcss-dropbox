@@ -10,7 +10,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 20px;
+  font-size: 18px;
   margin: 20px;
 }
 
@@ -24,18 +24,20 @@ nav .about-us {
 
 nav .logo img {
   height: 30px;
+  padding-top: 5px;
 }
 
-.why-dropbox {
-  padding-bottom: 5px;
+nav .user-area {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+  padding: 10px;
 }
 
-.functions {
-  padding-bottom: 5px;
-}
-
-.price-list {
-  padding-bottom: 5px;
+nav ul {
+  display: flex;
+  gap: 30px;
 }
 
 /* Generals */
@@ -59,6 +61,6 @@ a {
   color: black;
 }
 
-body {
-  background-color: red;
+main {
+  background-color: rgb(180, 208, 230);
 }
