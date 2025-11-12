@@ -11,17 +11,42 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-size: 20px;
+  margin: 20px;
 }
 
 nav .about-us {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  gap: 20px;
+  gap: 25px;
   padding: 10px;
 }
 
+nav .logo img {
+  height: 30px;
+}
+
+.why-dropbox {
+  padding-bottom: 5px;
+}
+
+.functions {
+  padding-bottom: 5px;
+}
+
+.price-list {
+  padding-bottom: 5px;
+}
+
 /* Generals */
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
 ul {
   list-style: none;
   display: flex;
