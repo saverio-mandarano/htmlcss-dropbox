@@ -70,6 +70,12 @@ a {
 .fa-solid {
   font-size: 40px;
 }
+/* button */
+.btn a {
+  background-color: blue;
+  color: white;
+  padding: 10px 25px;
+}
 
 /* hello */
 .hello-wrapper {
