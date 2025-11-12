@@ -87,3 +87,14 @@ a {
   font-size: 60px;
   padding: 20px;
 }
+
+.hello-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello-img {
+  width: 10%;
+}
