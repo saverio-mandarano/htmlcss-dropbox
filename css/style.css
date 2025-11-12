@@ -61,6 +61,21 @@ a {
   color: black;
 }
 
-main {
+/* hello */
+.hello-wrapper {
   background-color: rgb(180, 208, 230);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello-wrapper .hello-box {
+  background-color: black;
+  height: 100px;
+  width: 50%;
+}
+
+.hello-text {
+  color: white;
 }
