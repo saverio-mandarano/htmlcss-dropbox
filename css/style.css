@@ -62,9 +62,6 @@ a {
   color: black;
 }
 
-.fa-solid {
-  font-size: 40px;
-}
 /* button */
 .btn a {
   background-color: blue;
@@ -132,4 +129,71 @@ a {
 
 .hello-card ul li {
   margin: 1rem 0px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(15, 15, 15, 0.895);
+}
+
+footer .wrapper {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+.language {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  gap: 1%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.line {
+  width: 20%;
+  height: 2px;
+  background-color: rgb(200, 200, 200);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.fa-solid {
+  font-size: 20px;
+}
+
+.info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.info ul li a {
+  color: white;
+}
+
+footer .info ul li:first-child {
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20%;
 }
