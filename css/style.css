@@ -147,16 +147,20 @@ main .wrapper {
 }
 
 .card-head {
+  margin-left: 1rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
   border-bottom: rgba(200, 200, 200, 0.5) solid 2px;
 }
 
 .business-plan .card {
+  gap: 2rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
   border: rgba(200, 200, 200, 0.5) solid 2px;
 }
 
@@ -176,6 +180,11 @@ main .wrapper {
   gap: 1rem;
 }
 
+/* card .a {
+  color: blue;
+  text-decoration: underline;
+}  */
+
 /* Dropbox-business section */
 .dropbox-business h2 {
   font-size: 30px;
@@ -183,6 +192,7 @@ main .wrapper {
 .dropbox-business h4 {
   font-size: 35px;
   padding-right: 25rem;
+  margin-bottom: 3rem;
 }
 
 .img-wrapper img {
