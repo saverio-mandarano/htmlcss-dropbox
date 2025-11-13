@@ -7,11 +7,15 @@
 
 /* nav */
 nav {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 18px;
-  margin: 20px;
+  font-size: 15px;
+  margin: 1%;
 }
 
 nav .about-us {
@@ -19,12 +23,11 @@ nav .about-us {
   justify-content: flex-start;
   align-items: center;
   gap: 25px;
-  padding: 10px;
 }
 
 nav .logo img {
-  height: 30px;
-  padding-top: 5px;
+  width: 100%;
+  padding-top: 3%;
 }
 
 nav .user-area {
@@ -32,19 +35,15 @@ nav .user-area {
   justify-content: flex-end;
   align-items: center;
   gap: 25px;
-  padding: 10px;
+  padding: 1%;
 }
 
 nav ul {
-  display: flex;
   gap: 30px;
 }
 
 /* Generals */
 header {
-  position: sticky;
-  top: 0;
-  z-index: 5;
 }
 
 body {
@@ -58,8 +57,6 @@ body {
 ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 a {
@@ -104,7 +101,7 @@ a {
 }
 
 .hello-title h1 {
-  font-size: 73px;
+  font-size: 50px;
   padding: 20px;
   font-weight: 900;
 }
