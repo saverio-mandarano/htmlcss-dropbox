@@ -29,6 +29,7 @@ nav .about-us {
 nav .logo img {
   width: 100%;
   padding-top: 3%;
+  margin-left: 1rem;
 }
 
 nav .user-area {
@@ -118,7 +119,33 @@ header .wrapper {
   width: 100%;
 }
 
-/* footer */
+/* Header  */
+main .wrapper {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.business-plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.invoice-buttons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Footer */
 footer {
   display: flex;
   justify-content: center;
