@@ -7,6 +7,7 @@
 
 /* nav */
 nav {
+  /* non so perchè poi sparisce */
   position: sticky;
   top: 0;
   z-index: 5;
@@ -42,31 +43,6 @@ nav .user-area {
 
 nav ul {
   gap: 30px;
-}
-
-/* Generals */
-
-body {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-main {
-  width: 70%;
-  margin: 0 auto;
 }
 
 /* button */
@@ -124,36 +100,32 @@ header .wrapper {
   width: 100%;
 }
 
-/* Header  */
-/* 
-main .wrapper {
+/* Generals */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
   width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 7rem;
-} 
-  
-.business-plan {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 2rem;
+  margin: 0 auto;
 }
 
-.invoice-buttons {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-*/
-
-/* Business-plan Card */
-.dropbox-business {
+main .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,6 +135,19 @@ main .wrapper {
   margin-bottom: 10rem;
 }
 
+/* Business-plan section  */
+.business-plan h2 {
+  margin-bottom: 3rem;
+}
+
+.business-plan .invoice-buttons {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* Dropbox-business section */
+
 .dropbox-business h2 {
   font-size: 30px;
 }
@@ -171,7 +156,7 @@ main .wrapper {
   padding-right: 25rem;
 }
 
-.dropbox-business .card-wrapper {
+.card-wrapper {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
