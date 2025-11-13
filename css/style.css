@@ -157,10 +157,14 @@ main .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 2rem;
   margin-top: 10rem;
   margin-bottom: 5rem;
+}
+
+.dropbox-business h2 {
+  text-align: left;
 }
 
 .dropbox-business .card-wrapper {
