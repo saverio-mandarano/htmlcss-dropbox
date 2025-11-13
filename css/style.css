@@ -97,6 +97,7 @@ header .wrapper {
   align-items: center;
   margin-bottom: 8rem;
   margin-top: 3rem;
+  gap: 5%;
 }
 
 .hello .left-box {
@@ -110,6 +111,10 @@ header .wrapper {
 
 .hello .right-box {
   width: 70%;
+}
+
+.hello .right-box img {
+  width: 100%;
 }
 
 /* footer */
