@@ -43,8 +43,6 @@ nav ul {
 }
 
 /* Generals */
-header {
-}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -82,27 +80,25 @@ a {
   justify-content: center;
   align-items: center;
   max-height: 630px;
-  padding: 100px;
+  margin-top: 1%;
 }
 
 .hello-box {
-  /* background-color: black; */
-  width: 65%;
-  margin-right: 20px;
+  width: 70%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 10rem;
 }
 
 .hello-title {
-  /* color: white; */
-  margin-top: 80px;
+  margin-top: 8rem;
 }
 
 .hello-title h1 {
   font-size: 50px;
-  padding: 20px;
+  padding: 2%;
   font-weight: 900;
 }
 
