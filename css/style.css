@@ -15,7 +15,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   font-size: 15px;
-  margin: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 nav .about-us {
@@ -63,14 +64,14 @@ a {
 }
 
 /* button */
-.btn a {
+a.btn {
   background-color: blue;
   color: white;
-  padding: 10px 25px;
+  padding: 0.5rem;
 }
 
-/* hello */
-.hello-wrapper {
+/* Hello Section */
+header .wrapper {
   background-color: rgb(180, 208, 230);
   display: flex;
   flex-direction: column;
@@ -80,55 +81,30 @@ a {
   margin-top: 1%;
 }
 
-.hello-box {
+.hello {
   width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-top: 10rem;
 }
 
-.hello-title {
-  margin-top: 8rem;
-}
-
-.hello-title h1 {
-  font-size: 50px;
-  padding: 2%;
-  font-weight: 900;
-}
-
-.hello-main {
+.hello .box {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
 }
 
-.hello-card {
-  flex: 1 1 300px;
-  color: black;
-}
-.hello-img {
-  flex: 1 1 300px;
-}
-
-.hello-img img {
-  width: 100%;
-  max-width: 1000px;
-}
-
-.hello-card ul {
+.hello .left-box {
+  width: 30%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
-  gap: 1 rem;
-  margin-top: 1rem;
+  align-items: flex-start;
+  gap: 2rem;
 }
 
-.hello-card ul li {
-  margin: 1rem 0px;
+.hello .right-box {
+  width: 60%;
 }
 
 /* footer */
@@ -175,13 +151,7 @@ footer .wrapper {
   margin-bottom: 20px;
 }
 
-.fa-solid {
-  font-size: 15px;
-  color: white;
-}
-
 .info ul {
-  display: flex;
   flex-direction: column;
   gap: 10px;
   font-size: 15px;
@@ -197,4 +167,16 @@ footer .info ul li:first-child {
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 20%;
+}
+
+/* fontawesome layout*/
+.fa-earth-europe {
+  font-size: 15px;
+  color: white;
+}
+
+.fa-arrow-down {
+  font-size: 35px;
+  color: black;
+  padding-bottom: 1rem;
 }
